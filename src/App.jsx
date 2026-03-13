@@ -20,12 +20,11 @@ function Pill({ children }) {
 export default function App() {
   return (
     <div className="relative min-h-screen overflow-x-clip px-4 py-10 text-slate-100 sm:px-6 sm:py-14">
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 tech-grid opacity-40" />
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 tech-grid opacity-28" />
       <div aria-hidden="true" className="pointer-events-none absolute -left-40 -top-32 size-96 animate-float rounded-full bg-blue-500/30 blur-3xl" />
       <div aria-hidden="true" className="pointer-events-none absolute -right-44 top-8 size-[26rem] animate-float rounded-full bg-violet-500/25 blur-3xl [animation-delay:1800ms]" />
-      <div aria-hidden="true" className="pointer-events-none absolute bottom-[-7rem] left-1/2 size-[24rem] -translate-x-1/2 animate-float rounded-full bg-cyan-400/15 blur-3xl [animation-delay:900ms]" />
 
-      <main className="relative z-10 mx-auto grid w-full max-w-5xl gap-5 sm:gap-6">
+      <main className="relative z-10 mx-auto grid w-full max-w-5xl gap-5 pb-6 sm:gap-6 sm:pb-10">
         <Card id="hero" className="hero-card relative overflow-hidden" delay={40}>
           <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-200/70 to-transparent" />
           <div className="pointer-events-none absolute -right-16 -top-20 h-52 w-52 rounded-full bg-gradient-to-br from-blue-300/25 to-violet-300/10 blur-2xl" />
