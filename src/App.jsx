@@ -189,7 +189,7 @@ export default function App() {
           <div className="flex items-end justify-between gap-4">
             <div>
               <h2 className="section-title">Links</h2>
-              <p className="mt-2 text-sm text-slate-400">最小但够用的入口，别搞成链接垃圾场。</p>
+              <p className="mt-2 text-sm text-slate-400">精选的几个入口，用来快速了解我和我的项目。</p>
             </div>
           </div>
 
