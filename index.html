@@ -3,10 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SubtleSpark personal homepage">
   <title>SubtleSpark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>SubtleSpark</h1>
-  <p>你好，我是 SubtleSpark，这是我的个人主页。</p>
+  <div class="glow glow-a" aria-hidden="true"></div>
+  <div class="glow glow-b" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="hero card" id="hero">
+      <p class="eyebrow">Personal Homepage</p>
+      <h1>SubtleSpark</h1>
+      <p class="subtitle">building useful automation tools and reliable small systems.</p>
+      <a class="btn primary" href="https://github.com/SubtleSpark" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+    </section>
+
+    <section class="about card" id="about">
+      <h2>About</h2>
+      <p>我专注于把重复、易错的流程做成稳定且可复用的自动化工具。</p>
+      <p>我重视可维护性与可靠性，让小系统在真实场景中持续产生价值。</p>
+    </section>
+
+    <section class="project card" id="featured-project">
+      <h2>Featured Project</h2>
+      <h3>auto-bond-purchase</h3>
+      <p>
+        基于 Playwright 与 VGG 深度学习验证码识别，自动化处理东方财富新债申购流程，支持多账号并发、定时执行、失败重试与通知推送。
+        目标是把高频重复操作交给系统，显著减少手动负担。
+      </p>
+      <a class="btn" href="https://github.com/SubtleSpark/auto-bond-purchase" target="_blank" rel="noopener noreferrer">Open Project on GitHub</a>
+    </section>
+
+    <section class="links card" id="links">
+      <h2>Links</h2>
+      <a class="text-link" href="https://github.com/SubtleSpark" target="_blank" rel="noopener noreferrer">github.com/SubtleSpark</a>
+      <a class="text-link" href="https://github.com/SubtleSpark/auto-bond-purchase" target="_blank" rel="noopener noreferrer">github.com/SubtleSpark/auto-bond-purchase</a>
+    </section>
+  </main>
 </body>
 </html>
